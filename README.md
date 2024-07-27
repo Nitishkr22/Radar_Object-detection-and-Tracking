@@ -1,4 +1,4 @@
-# Unscented Kalman Filter
+# Radar based detection and tracking using Unscented Kalman Filter
 
 Unscented Kalman Filter implementation to track car's on a highway using lidar and radar data.
 
@@ -114,34 +114,7 @@ Comparision of ground truth v/s ukf estimations are as follows.
 
 <img src="man/figures/car2GTYaw.png" width="700" height="400" />
 
-## Dependencies for Running Locally
 
-### Using docker
-```
-$ docker pull ragumanjegowda/docker:latest
-```
-
-### Native (I have not tested this)
-
-* cmake >= 3.5
-  * All OSes: [click here for installation instructions](https://cmake.org/install/)
-* make >= 4.1 (Linux, Mac), 3.81 (Windows)
-  * Linux: make is installed by default on most Linux distros
-  * Mac: [install Xcode command line tools to get make](https://developer.apple.com/xcode/features/)
-  * Windows: [Click here for installation instructions](http://gnuwin32.sourceforge.net/packages/make.htm)
-* gcc/g++ >= 5.4
-  * Linux: gcc / g++ is installed by default on most Linux distros
-  * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
-  * Windows: recommend using [MinGW](http://www.mingw.org/)
- * PCL 1.8
-
-## Basic Build Instructions
-
-```
-$> mkdir build && cd build
-$> cmake -G Ninja ..
-$> ninja -j400
-$> ./ukf_highway
 ```
 
 ## Credits
